@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520184B61CD01B4900A5EE28 /* problem_028.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520184B51CD01B4900A5EE28 /* problem_028.swift */; };
 		5225D9421CB6D5C90014B4B7 /* names.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5225D9411CB6D5BD0014B4B7 /* names.txt */; };
 		523A6C1B1CAF1858004230D6 /* problem_025.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A6C1A1CAF1858004230D6 /* problem_025.swift */; };
 		526A619E1CB3382900CA47FE /* problem_216.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526A619D1CB3382900CA47FE /* problem_216.swift */; };
@@ -65,6 +66,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		520184B51CD01B4900A5EE28 /* problem_028.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_028.swift; sourceTree = "<group>"; };
 		5225D9411CB6D5BD0014B4B7 /* names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = names.txt; path = problems/names.txt; sourceTree = SOURCE_ROOT; };
 		523A6C191CAF1440004230D6 /* Euler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Euler.playground; sourceTree = "<group>"; };
 		523A6C1A1CAF1858004230D6 /* problem_025.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = problem_025.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				52F8FF721CAF12B8000D1EB0 /* problem_023.swift */,
 				52F8FF741CAF12C2000D1EB0 /* problem_024.swift */,
 				523A6C1A1CAF1858004230D6 /* problem_025.swift */,
+				520184B51CD01B4900A5EE28 /* problem_028.swift */,
 				52774EA71CAF556B004D4719 /* problem_034.swift */,
 				528A23211CB002E900DCBEBC /* problem_035.swift */,
 				528A23231CB03AA700DCBEBC /* problem_036.swift */,
@@ -320,6 +323,7 @@
 				528A23241CB03AA700DCBEBC /* problem_036.swift in Sources */,
 				526A619E1CB3382900CA47FE /* problem_216.swift in Sources */,
 				52D39B911BD02964006DEE1C /* problem_003.swift in Sources */,
+				520184B61CD01B4900A5EE28 /* problem_028.swift in Sources */,
 				526A61A21CB3E46600CA47FE /* problem_162.swift in Sources */,
 				52F8FF711CAF12AF000D1EB0 /* problem_022.swift in Sources */,
 				528A23221CB002E900DCBEBC /* problem_035.swift in Sources */,

@@ -1,14 +1,5 @@
 import Foundation
 
-public func evaluateBlock(block: () -> Int) {
-    let start   = NSDate()
-    let result  = block()
-    let end     = NSDate()
-    
-    let timeInterval: Double = end.timeIntervalSinceDate(start)
-    print("solution of \(result) reached in \(timeInterval) seconds")
-}
-
 extension UnicodeScalar: ForwardIndexType {
     public func successor() -> UnicodeScalar {
         return UnicodeScalar(value + 1)
