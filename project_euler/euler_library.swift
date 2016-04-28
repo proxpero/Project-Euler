@@ -179,6 +179,35 @@ extension Array {
     }
 }
 
+extension Int {
+
+    var primeFactors: [Int] {
+
+        guard self > 0 else { fatalError() }
+
+        var x = self
+        var result: Array<Int> = []
+        while x != 1 {
+            let factor = x.smallestFactor
+            result.append(factor)
+            x /= factor
+        }
+        return result
+
+    }
+
+    var smallestFactor: Int {
+
+        guard self > 1 else { fatalError() }
+
+        if self % 2 == 0 { return 2 }
+        for i in 3.stride(through: Int(sqrt(Double(self))), by: 2) {
+            if self % i == 0 { return i }
+        }
+        return self
+        
+    }
+}
 
 public func isPrimeList(limit: Int) -> [Bool] {
     //  Sieve of Eratosthenes
